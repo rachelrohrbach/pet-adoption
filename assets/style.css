@@ -1,3 +1,7 @@
 .top-margin {
     margin-top: 40px;
 }
+
+#petCard {
+    display: inline-block;
+}

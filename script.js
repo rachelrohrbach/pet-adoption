@@ -89,26 +89,23 @@ $(document).ready(function() {
         }
 
         $("#pet-results")
-          .html('<h4 class="mt-3">Search Results</h4>')
+          .html('<h4 class="has-text-centered is-size-3">Search Results</h4>')
           .append('<div class="row">');
 
         for (var i = 0; i < result.data.length - 10; i++) {
           var col = $("<div>")
             .addClass("column is-4")
             .attr("id", "petCard");
-          var title = $("<h4>")
-            .addClass("card-title")
+          var title = $("<h3>")
+            .addClass("card-title has-text-weight-bold")
             .text(result.data[i].attributes.name);
-          var card = $("<div>").addClass("card");
+          var card = $("<div>").addClass("card has-background-light");
           var breed = $("<p>")
             .addClass("card-text")
             .text("Breed: " + result.data[i].attributes.breedString);
           var sex = $("<p>")
             .addClass("card-text")
             .text("Sex: " + result.data[i].attributes.sex);
-          // var aboutPet = $("<p>")
-          //   .addClass("card-text")
-          //   .text(result.data[i].attributes.descriptionText);
           var distance = $("<p>")
             .addClass("card-text")
             .text("Distance: " + result.data[i].attributes.distance + " miles");

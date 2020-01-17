@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Pet Search Results</title>
+    <title>Pet Resources</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
     <link rel="stylesheet" type="text/css" href="assets/style.css">
@@ -31,7 +31,7 @@
                 <a class="navbar-item" href="index.html">
                     Find a Pet
                 </a>
-                <a class="navbar-item" href="">
+                <a class="navbar-item" href="resources.html">
                     Pet Resources
                 </a>
             </div>
@@ -39,15 +39,42 @@
         </div>
     </nav>
 
-    <div id="pet-resources" class="container">
+    <div class="container is-fluid">
+        <div class="notification">
+            <h1 class="has-text-centered is-size-2">Pet Resources Map</h1>
+
+            <div class="columns">
+                <div class="column"></div>
+                <div class="column">
+                    <div class="field">
+                        <label class="label">Zip Code:</label>
+                        <div class="control">
+                            <input id="zipCode" class="input" type="text" placeholder="">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label class="label">Search:</label>
+                        <div class="control is-expanded">
+                            <input id="search" class="input" type="text" placeholder="">
+                        </div>
+                    </div>
+                </div>
+                <div class="column"></div>
+            </div>
+        </div>
     </div>
-        
+
+    <div class="container is-fluid">
+        <div id="map"></div>
+    </div>
 
 
     <footer class="footer">
         <div class="content has-text-centered">
             <p>
-                <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
+                <strong>Pet Adoption</strong> by Jared Kong, Khangai Ganbayar, & Rachel Rohrbach. The source
+                code is
+                licensed
                 <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
                 is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
             </p>
@@ -55,9 +82,10 @@
     </footer>
 
     <script src="https://code.jquery.com/jquery.js"></script>
-    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-<script src="https://unpkg.com/@petfinder/petfinder-js/dist/petfinder.min.js"></script>
-    <script src="resources.js"></script>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCaMXxRMDLVPxoDrj5hedprQiJ4LJp-Oa8&callback=initMap&libraries=places"
+        async defer></script>
+    <script src="pet-resources.js"></script>
 </body>
 
 </html>

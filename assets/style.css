@@ -5,3 +5,8 @@
 #petCard {
     display: inline-block;
 }
+
+#map {
+    height: 500px;
+  }
+  

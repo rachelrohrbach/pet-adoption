@@ -8,7 +8,7 @@
 * [License](#license)
 
 ## General Info
-This project is an animal adoption search and animal resources app. It takes in user input to search the RescueGroups.org API for cats or dogs that are available for adoption from adoption agencies. It retrieves the data in a JSON format and dynamically updates the HTML and CSS via jQuery and JavaScript to display the animals available.  It also offers the user resources like vets, pet stores, etc. using the Google Maps JavaScript API and Google Places library based on the user's location.  
+This project is an animal adoption search and pet resources mapping website. It takes in user input to search the RescueGroups.org API for cats or dogs that are available for adoption from adoption agencies. It retrieves the data in a JSON format and dynamically updates the HTML and CSS via jQuery and JavaScript to display the animals available.  It also offers the user resources like vets, pet stores, etc. using the Google Maps JavaScript API and Google Places library based on the user's location.  
 
 ## Technologies
 This project is created with:
@@ -25,6 +25,9 @@ This project is created with:
 * RescueGroups.org API
 
 ## Screenshot
+![search screenshot](images\pet-search-screenshot.png)
+![search results screenshot](images\search-results-screenshot.png)
+![resources screenshot](images\pet-resources-map-screenshot.png)
 
 Link to the deployed github page: https://rachelrohrbach.github.io/pet-adoption/
 

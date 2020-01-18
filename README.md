@@ -12,6 +12,7 @@ This project is an animal adoption search and animal resources app. It takes in 
 
 ## Technologies
 This project is created with:
+* Ajax
 * Bulma
 * CSS
 * Font Awesome
@@ -28,7 +29,7 @@ This project is created with:
 Link to the deployed github page: https://rachelrohrbach.github.io/pet-adoption/
 
 # Credits
-We consulted the RescueGroups.org API documentation (https://test1-api.rescuegroups.org/v5/public/docs#start-here), Google Maps Javascript API (https://developers-dot-devsite-v2-prod.appspot.com/maps/documentation/javascript/tutorial), Google Places Library (https://developers-dot-devsite-v2-prod.appspot.com/maps/documentation/javascript/places), Google Maps JavaScript API Tutorial by Traversty Media (https://www.youtube.com/watch?v=Zxf1mnP5zcw), jQuery and JavaScript API Documentation (https://api.jquery.com/), W3Schools (https://www.w3schools.com/js/default.asp), MDN Web Docs (https://developer.mozilla.org/en-US/docs/Web/JavaScript), Bulma (https://bulma.io/documentation/), Stack Overflow (#https://stackoverflow.com/) and the GitLab repository for our course, specifically referencing the in-class activities. 
+We consulted the RescueGroups.org API documentation (https://test1-api.rescuegroups.org/v5/public/docs#start-here), Google Maps Javascript API documentation (https://developers-dot-devsite-v2-prod.appspot.com/maps/documentation/javascript/tutorial), Google Places Library documentation (https://developers-dot-devsite-v2-prod.appspot.com/maps/documentation/javascript/places), jQuery and JavaScript API Documentation (https://api.jquery.com/), W3Schools (https://www.w3schools.com/js/default.asp), MDN Web Docs (https://developer.mozilla.org/en-US/docs/Web/JavaScript), Bulma (https://bulma.io/documentation/), Stack Overflow (#https://stackoverflow.com/) and the GitLab repository for our course, specifically referencing the in-class activities. 
 
 ## License
 MIT License

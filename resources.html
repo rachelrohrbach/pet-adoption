@@ -15,17 +15,15 @@
 
     <nav class="navbar is-info">
         <div class="navbar-brand">
-            <a class="navbar-item" href="https://bulma.io">
-                <img src="https://bulma.io/images/bulma-logo.png" alt="Bulma: a modern CSS framework based on Flexbox"
-                    width="112" height="28">
+            <a class="navbar-item is-size-3" href="index.html">
+                <i class="fas fa-paw"></i>Adopt-a-Pet
             </a>
-            <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
+            <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
         </div>
-
         <div id="navbarExampleTransparentExample" class="navbar-menu">
             <div class="navbar-end">
                 <a class="navbar-item" href="index.html">
@@ -36,7 +34,6 @@
                 </a>
             </div>
         </div>
-        </div>
     </nav>
 
     <div class="container is-fluid">
@@ -45,13 +42,9 @@
 
             <div class="columns">
                 <div class="column"></div>
+                <p id="demo"> </p>
                 <div class="column">
-                    <div class="field">
-                        <label class="label">Zip Code:</label>
-                        <div class="control">
-                            <input id="zipCode" class="input" type="text" placeholder="">
-                        </div>
-                    </div>
+                    <button class ="button is-primary" id="useLocation">Use current location</button>
                     <div class="field">
                         <label class="label">Search:</label>
                         <div class="control is-expanded">
@@ -83,7 +76,7 @@
 
     <script src="https://code.jquery.com/jquery.js"></script>
     <script
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCaMXxRMDLVPxoDrj5hedprQiJ4LJp-Oa8&callback=initMap&libraries=places"
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAlpNLcdDTV3SenIv76DITgx95PBaTlpww&callback=initMap&libraries=places"
         async defer></script>
     <script src="pet-resources.js"></script>
 </body>

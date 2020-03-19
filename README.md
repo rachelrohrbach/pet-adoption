@@ -25,9 +25,9 @@ This project is created with:
 * RescueGroups.org API
 
 ## Screenshot
-![search screenshot](images\pet-search-screenshot.png)
-![search results screenshot](images\search-results-screenshot.png)
-![resources screenshot](images\pet-resources-map-screenshot.png)
+![search screenshot](images/pet-search-screenshot.png)
+![search results screenshot](images/search-results-screenshot.png)
+![resources screenshot](images/pet-resources-map-screenshot.png)
 
 Link to the deployed github page: https://rachelrohrbach.github.io/pet-adoption/
 
